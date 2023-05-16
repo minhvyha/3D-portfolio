@@ -43,6 +43,12 @@ import {
   projectflux,
 } from '../assets';
 
+import beginnerpdf from '../pdf/beginner.pdf'
+import intermediatepdf from '../pdf/intermediate.pdf'
+import tournamentpdf from '../pdf/tournament.pdf'
+
+
+
 export const navLinks = [
   {
     id: 'about',
@@ -63,10 +69,6 @@ export const navLinks = [
   {
     id: 'contact',
     title: 'Contact',
-  },
-  {
-    id: 'https://minhvyha.com/src/pdf/resume.pdf',
-    title: 'Resume',
   },
 ];
 
@@ -617,7 +619,7 @@ const certificate = [
       },
     ],
     image: hack,
-    source_code_link: 'https://github.com/minhvyha/Stock-Market',
+    source_code_link: 'https://photos.app.goo.gl/NaZ6uvMkN2yUNFTZ9',
   },
   {
     name: 'Web Competition Tournament',
@@ -638,7 +640,7 @@ const certificate = [
       },
     ],
     image: tournament,
-    source_code_link: 'https://minhvyha.com/src/pdf/tournament.pdf',
+    source_code_link: tournamentpdf,
   },
   {
     name: 'NCSS Intermediate Challenge',
@@ -659,7 +661,7 @@ const certificate = [
       },
     ],
     image: intermediate,
-    source_code_link: 'https://minhvyha.com/src/pdf/intermediate.pdf',
+    source_code_link: intermediatepdf,
   },
   
   {
@@ -681,7 +683,7 @@ const certificate = [
       },
     ],
     image: beginner,
-    source_code_link: 'https://minhvyha.com/src/pdf/beginner.pdf',
+    source_code_link: beginnerpdf,
   },
 ];
 
