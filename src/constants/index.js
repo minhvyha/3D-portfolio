@@ -209,9 +209,9 @@ const testimonials = [
   },
   {
     testimonial:
-      "Minh has a strong ability to motivate and inspire his team. He leads by example, setting high standards for professionalism, quality, and dedication.",
-    name: 'Aboo',
-    designation: 'SWE',
+      "He is an exceptional software engineer and team leader. His technical expertise and leadership abilities are outstanding.",
+    name: 'Elmahdi Mamoun',
+    designation: 'Tech Lead',
     company: 'Greenie Web',
     image:
       'https://api.dicebear.com/6.x/micah/svg?seed=Cali&baseColor=f9c9b6&earrings[]&ears=attached&eyeShadowColor[]&facialHairProbability=0&glasses[]&glassesProbability=0&hair=fonze&mouth=laughing,smile,smirk&nose=curve&shirt=collared&shirtColor=6bd9e9,9287ff,d2eff3,e0ddff,f4d150,f9c9b6,fc909f,ffeba4,ffedef,ffffff',
