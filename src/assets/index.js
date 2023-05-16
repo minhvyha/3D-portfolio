@@ -1,0 +1,110 @@
+import logo from './logo.svg';
+import backend from './backend.png';
+import creator from './creator.png';
+import web from './web.png';
+import github from './github.png';
+import menu from './menu.svg';
+import close from './close.svg';
+import certificateImg from './certificate.png';
+import react from './react.png';
+
+import ai from './project/ai.png';
+import businesscard from './project/businesscard.png';
+import firewithin from './project/firewithin.png';
+import mern1 from './project/mern1.png';
+import mern2 from './project/mern2.png';
+import path from './project/path.png';
+import pong from './project/pong.png';
+import quizzical from './project/quizzical.png';
+import search from './project/search.png';
+import sonarqube from './project/sonarqube.png';
+import sort from './project/sort.png';
+import stockexchange from './project/stockexchange.png';
+import sudoku from './project/sudoku.png';
+import tenzies from './project/tenzies.png';
+import tictactoe from './project/tictactoe.png';
+import travelreact from './project/travelreact.png';
+
+import beginner from './certificate/beginner.png';
+import cs50p from './certificate/cs50p.png';
+import cs50x from './certificate/cs50x.png';
+import hack from './certificate/hack.png';
+import intermediate from './certificate/intermediate.png';
+import tournament from './certificate/tournament.png';
+
+import css from './tech/css.png';
+import git from './tech/git.png';
+import html from './tech/html.png';
+import javascript from './tech/javascript.png';
+import mongodb from './tech/mongodb.png';
+import nodejs from './tech/nodejs.png';
+import reactjs from './tech/reactjs.png';
+import redux from './tech/redux.png';
+import tailwind from './tech/tailwind.png';
+import typescript from './tech/typescript.png';
+import threejs from './tech/threejs.svg';
+import tensorflow from './tech/tensorflow.png';
+import electron from './tech/electron.png';
+
+import meta from './company/meta.png';
+import shopify from './company/shopify.png';
+import starbucks from './company/starbucks.png';
+import tesla from './company/tesla.png';
+
+import carrent from './carrent.png';
+import jobit from './jobit.png';
+import tripguide from './tripguide.png';
+
+export {
+  beginner,
+  cs50p,
+  cs50x,
+  hack,
+  intermediate,
+  tournament,
+  ai,
+  certificateImg,
+  search,
+  businesscard,
+  firewithin,
+  mern1,
+  mern2,
+  path,
+  pong,
+  quizzical,
+  sonarqube,
+  sort,
+  stockexchange,
+  sudoku,
+  tenzies,
+  tictactoe,
+  travelreact,
+  logo,
+  electron,
+  tensorflow,
+  backend,
+  creator,
+  web,
+  github,
+  menu,
+  close,
+  css,
+  git,
+  html,
+  javascript,
+  mongodb,
+  nodejs,
+  react,
+  reactjs,
+  redux,
+  tailwind,
+  typescript,
+  threejs,
+  meta,
+  shopify,
+  starbucks,
+  tesla,
+  carrent,
+  jobit,
+  tripguide,
+};
