@@ -63,7 +63,7 @@ const Navbar = () => {
           ))}
           <li
             onClick={() => window.open(resume, '_blank')}
-            className="text-secondary hover:text-white text-[18px] font-medium cursor-pointer"
+            className="text-secondary hover:text-white text-[18px] font-bold cursor-pointer"
           >
             Resume
           </li>
@@ -99,7 +99,7 @@ const Navbar = () => {
               ))}
               <li
                 onClick={() => window.open(resume, '_blank')}
-                className="text-secondary hover:text-white text-[18px] font-medium cursor-pointer"
+                className="text-secondary hover:text-white text-[18px] font-bold cursor-pointer"
               >
                 Resume
               </li>
