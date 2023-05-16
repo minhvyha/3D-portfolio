@@ -280,7 +280,7 @@ const projects = [
       },
     ],
     image: mern1,
-    source_code_link: 'https://github.com/',
+    source_code_link: 'https://github.com/minhvyha/full-stack-mern',
   },
   {
     name: 'Tenzies',
