@@ -37,14 +37,10 @@ import {
   git,
   electron,
   tensorflow,
-  meta,
-  starbucks,
-  tesla,
-  shopify,
-  carrent,
-  jobit,
-  tripguide,
   threejs,
+  greenieweb,
+  chs,
+  projectflux,
 } from '../assets';
 
 export const navLinks = [
@@ -146,11 +142,11 @@ const technologies = [
 
 const experiences = [
   {
-    title: 'React.js Developer',
-    company_name: 'Starbucks',
-    icon: starbucks,
+    title: 'Student',
+    company_name: 'Cabramatta High School',
+    icon: chs,
     iconBg: '#383E56',
-    date: 'March 2020 - April 2021',
+    date: 'Aug 2019 - Present',
     points: [
       'Developing and maintaining web applications using React.js and other related technologies.',
       'Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.',
@@ -159,9 +155,9 @@ const experiences = [
     ],
   },
   {
-    title: 'React Native Developer',
-    company_name: 'Tesla',
-    icon: tesla,
+    title: 'Software Engineer',
+    company_name: 'Project Flux',
+    icon: projectflux,
     iconBg: '#E6DEDD',
     date: 'Jan 2021 - Feb 2022',
     points: [
@@ -172,23 +168,10 @@ const experiences = [
     ],
   },
   {
-    title: 'Web Developer',
-    company_name: 'Shopify',
-    icon: shopify,
+    title: 'Tech Manager / Director',
+    company_name: 'Greenie Web',
+    icon: greenieweb,
     iconBg: '#383E56',
-    date: 'Jan 2022 - Jan 2023',
-    points: [
-      'Developing and maintaining web applications using React.js and other related technologies.',
-      'Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.',
-      'Implementing responsive design and ensuring cross-browser compatibility.',
-      'Participating in code reviews and providing constructive feedback to other developers.',
-    ],
-  },
-  {
-    title: 'Full stack Developer',
-    company_name: 'Meta',
-    icon: meta,
-    iconBg: '#E6DEDD',
     date: 'Jan 2023 - Present',
     points: [
       'Developing and maintaining web applications using React.js and other related technologies.',
@@ -211,7 +194,7 @@ const testimonials = [
   },
   {
     testimonial:
-      'Such a talented leader with strong technical skills. I never regret to be his team member.',
+      'Such a talented leader with strong technical skills. His skills and attitude motivate me to keep trying my best.',
     name: 'Aye Thu Zar Tun',
     designation: 'SWE',
     company: 'Greenie Web',
@@ -220,8 +203,8 @@ const testimonials = [
   },
   {
     testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: 'Elmahdi Mamoun',
+      "Minh has a strong ability to motivate and inspire his team. He leads by example, setting high standards for professionalism, quality, and dedication.",
+    name: 'Aboo',
     designation: 'SWE',
     company: 'Greenie Web',
     image:
