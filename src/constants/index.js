@@ -209,7 +209,7 @@ const testimonials = [
   },
   {
     testimonial:
-      "He is an exceptional software engineer and team leader. His technical expertise and leadership abilities are outstanding.",
+      "Minh is an exceptional software engineer and team leader. His technical expertise and leadership abilities are outstanding.",
     name: 'Elmahdi Mamoun',
     designation: 'Tech Lead',
     company: 'Greenie Web',
