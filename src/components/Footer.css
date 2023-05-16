@@ -1,10 +1,11 @@
 .footer {
 	background-color: rgb(16, 13, 37);
-	margin-inline: auto;
 }
 
 .footer__container {
 	padding: 2rem 0 6rem;
+	margin-inline: auto;
+
 }
 
 .footer__title,

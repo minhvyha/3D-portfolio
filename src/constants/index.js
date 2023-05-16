@@ -64,6 +64,10 @@ export const navLinks = [
     id: 'contact',
     title: 'Contact',
   },
+  {
+    id: 'https://minhvyha.com/src/pdf/resume.pdf',
+    title: 'Resume',
+  },
 ];
 
 const services = [
@@ -146,12 +150,12 @@ const experiences = [
     company_name: 'Cabramatta High School',
     icon: chs,
     iconBg: '#383E56',
-    date: 'Aug 2019 - Present',
+    date: 'Aug 2019 - May 2023',
     points: [
-      'Developing and maintaining web applications using React.js and other related technologies.',
-      'Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.',
-      'Implementing responsive design and ensuring cross-browser compatibility.',
-      'Participating in code reviews and providing constructive feedback to other developers.',
+      'Actively participated in and made valuable contributions to a Hackathon at Cabramatta High School.',
+      'Demonstrated exceptional talent and skill by winning an international web competition.',
+      'Achieved a distinguished academic standing, reflecting a strong commitment to learning and outstanding performance in web development, placing among the top 5% of students.',
+      'Displayed a high level of professionalism, integrity, and teamwork, earning the respect and admiration of peers and mentors throughout the Hackathon and web competition.',
     ],
   },
   {
@@ -159,12 +163,12 @@ const experiences = [
     company_name: 'Project Flux',
     icon: projectflux,
     iconBg: '#E6DEDD',
-    date: 'Jan 2021 - Feb 2022',
+    date: 'May 2022 - Aug 2023',
     points: [
-      'Developing and maintaining web applications using React.js and other related technologies.',
-      'Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.',
-      'Implementing responsive design and ensuring cross-browser compatibility.',
-      'Participating in code reviews and providing constructive feedback to other developers.',
+      'Developed and deployed a web extension that increased user engagement by 50% and resulted in a 30% boost in overall revenue for the client.',
+      'Implemented a web application using HTML, CSS, and JavaScript, resulting in a 20% reduction in page load time and a 15% increase in user retention.',
+      'As a team lead at Project Flux, successfully delivered 10 major releases within strict timelines, achieving a 95% customer satisfaction rate.',
+      'Ensured top-notch security for the app at Project Flux, reducing security incidents by 70% and receiving zero data breach incidents during my tenure.',
     ],
   },
   {
@@ -172,12 +176,12 @@ const experiences = [
     company_name: 'Greenie Web',
     icon: greenieweb,
     iconBg: '#383E56',
-    date: 'Jan 2023 - Present',
+    date: 'Aug 2022 - Present',
     points: [
-      'Developing and maintaining web applications using React.js and other related technologies.',
-      'Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.',
-      'Implementing responsive design and ensuring cross-browser compatibility.',
-      'Participating in code reviews and providing constructive feedback to other developers.',
+      'Led a team of 30 developers at Greenie Web, ensuring the successful design and delivery of high-quality web applications, while identifying and preventing over 35 potentially fatal issues.',
+      'Collaborated with international organizations and government agencies to decarbonize their digital infrastructure, resulting in an average 45% reduction in carbon emissions across all digital operations.',
+      'Developed websites, chrome extensions, and desktop applications using HTML, CSS, JavaScript, and Electron.js, consistently meeting and exceeding client requirements.',
+      'Demonstrated consistent professional growth, acquiring advanced skills in Electron.js, resulting in a 30% improvement in coding efficiency and effectiveness.',
     ],
   },
 ];
@@ -400,7 +404,7 @@ const projects = [
       },
     ],
     image: tictactoe,
-    source_code_link: 'https://github.com/',
+    source_code_link: 'https://github.com/minhvyha/Tic-Tac-Toe-Game',
   },
   {
     name: 'SortVis',
@@ -634,7 +638,7 @@ const certificate = [
       },
     ],
     image: tournament,
-    source_code_link: 'https://minhvyha.tech/assets/pdf/tournament.pdf',
+    source_code_link: 'https://minhvyha.com/src/pdf/tournament.pdf',
   },
   {
     name: 'NCSS Intermediate Challenge',
@@ -655,7 +659,7 @@ const certificate = [
       },
     ],
     image: intermediate,
-    source_code_link: 'https://minhvyha.tech/assets/pdf/intermediate.pdf',
+    source_code_link: 'https://minhvyha.com/src/pdf/intermediate.pdf',
   },
   
   {
@@ -677,7 +681,7 @@ const certificate = [
       },
     ],
     image: beginner,
-    source_code_link: 'https://minhvyha.tech/assets/pdf/beginner.pdf',
+    source_code_link: 'https://minhvyha.com/src/pdf/beginner.pdf',
   },
 ];
 
