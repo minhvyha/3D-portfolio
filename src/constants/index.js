@@ -233,8 +233,8 @@ const projects = [
         color: 'green-text-gradient',
       },
       {
-        name: 'express',
-        color: 'pink-text-gradient',
+        name: 'tailwind',
+        color: 'orange-text-gradient',
       },
     ],
     image: stockexchange,
