@@ -85,7 +85,7 @@ const Certificate = () => {
         animate={mainControls}
       >
         <p className={`${styles.sectionSubText} `}>My qualification</p>
-        <h2 className={`${styles.sectionHeadText}`}>Certificates</h2>
+        <h2 className={`${styles.sectionHeadText}`}>Certificates.</h2>
       </motion.div>
 
       <div className="w-full flex">
