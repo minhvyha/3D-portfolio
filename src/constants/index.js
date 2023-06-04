@@ -165,7 +165,7 @@ const experiences = [
     company_name: 'Project Flux',
     icon: projectflux,
     iconBg: '#E6DEDD',
-    date: 'May 2022 - Aug 2023',
+    date: 'July 2022 - Sep 2023',
     points: [
       'Developed and deployed a web extension that increased user engagement by 50% and resulted in a 30% boost in overall revenue for the client.',
       'Implemented a web application using HTML, CSS, and JavaScript, resulting in a 20% reduction in page load time and a 15% increase in user retention.',
@@ -178,7 +178,7 @@ const experiences = [
     company_name: 'Greenie Web',
     icon: greenieweb,
     iconBg: '#383E56',
-    date: 'Aug 2022 - Present',
+    date: 'Sep 2022 - Present',
     points: [
       'Led a team of 30 developers at Greenie Web, ensuring the successful design and delivery of high-quality web applications, while identifying and preventing over 35 potentially fatal issues.',
       'Collaborated with international organizations and government agencies to decarbonize their digital infrastructure, resulting in an average 45% reduction in carbon emissions across all digital operations.',
