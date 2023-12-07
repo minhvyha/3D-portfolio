@@ -186,32 +186,7 @@ const experiences = [
     ],
   },
 
-  {
-    title: "Software Engineer",
-    company_name: "Project Flux",
-    icon: projectflux,
-    iconBg: "#E6DEDD",
-    date: "July 2022 - Sep 2023",
-    points: [
-      "Developed and deployed a web extension that increased user engagement by 50% and resulted in a 30% boost in overall revenue for the client.",
-      "Implemented a web application using HTML, CSS, and JavaScript, resulting in a 20% reduction in page load time and a 15% increase in user retention.",
-      "As a team lead at Project Flux, successfully delivered 10 major releases within strict timelines, achieving a 95% customer satisfaction rate.",
-      "Ensured top-notch security for the app at Project Flux, reducing security incidents by 70% and receiving zero data breach incidents during my tenure.",
-    ],
-  },
-  {
-    title: "Student",
-    company_name: "Cabramatta High School",
-    icon: chs,
-    iconBg: "#383E56",
-    date: "Aug 2019 - May 2023",
-    points: [
-      "Actively participated in and made valuable contributions to a Hackathon at Cabramatta High School.",
-      "Demonstrated exceptional talent and skill by winning an international web competition.",
-      "Achieved a distinguished academic standing, reflecting a strong commitment to learning and outstanding performance in web development, placing among the top 5% of students.",
-      "Displayed a high level of professionalism, integrity, and teamwork, earning the respect and admiration of peers and mentors throughout the Hackathon and web competition.",
-    ],
-  },
+
   {
     title: 'Tech Deputy Manager',
     company_name: 'Global Alliance for Digital Sustainability',
