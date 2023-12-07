@@ -49,6 +49,7 @@ import electron from './tech/electron.png';
 import greenieweb from './company/greenieweb.png';
 import chs from './company/chs.png';
 import projectflux from './company/projectflux.png';
+import gads from './company/gads.png'
 
 export {
   beginner,
@@ -61,7 +62,7 @@ export {
   certificateImg,
   search,
   businesscard,
-  firewithin,
+  firewithin,gads,
   mern1,
   mern2,
   path,
