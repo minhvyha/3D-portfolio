@@ -147,16 +147,27 @@ const technologies = [
 
 const experiences = [
   {
-    title: 'Student',
-    company_name: 'Cabramatta High School',
-    icon: chs,
-    iconBg: '#383E56',
-    date: 'Aug 2019 - May 2023',
+    title: 'Tech Deputy Manager',
+    company_name: 'Global Alliance for Digital Sustainability',
+    icon: gads,
+    iconBg: '#F3F3F3',
+    date: 'Nov 2023 - Present',
     points: [
-      'Actively participated in and made valuable contributions to a Hackathon at Cabramatta High School.',
-      'Demonstrated exceptional talent and skill by winning an international web competition.',
-      'Achieved a distinguished academic standing, reflecting a strong commitment to learning and outstanding performance in web development, placing among the top 5% of students.',
-      'Displayed a high level of professionalism, integrity, and teamwork, earning the respect and admiration of peers and mentors throughout the Hackathon and web competition.',
+      'The Deputy Manager at Global Alliance for Digital Sustainability leads research initiatives to enhance the environmental sustainability of coding and software development.',
+      'Responsibilities include exploring innovative methods, collaborating with experts, and implementing strategies to promote eco-friendly practices within the digital realm.',
+      'Developed 4 websites, including a marketplace using React and MongoDB, raising awareness about digital sustainability.',
+    ],
+  },{
+    title: 'Tech Manager / Director',
+    company_name: 'Greenie Web',
+    icon: greenieweb,
+    iconBg: '#383E56',
+    date: 'Sep 2022 - Present',
+    points: [
+      'Led a team of 30 developers at Greenie Web, ensuring the successful design and delivery of high-quality web applications, while identifying and preventing over 35 potentially fatal issues.',
+      'Collaborated with international organizations and government agencies to decarbonize their digital infrastructure, resulting in an average 45% reduction in carbon emissions across all digital operations.',
+      'Developed websites, chrome extensions, and desktop applications using HTML, CSS, JavaScript, and Electron.js, consistently meeting and exceeding client requirements.',
+      'Demonstrated consistent professional growth, acquiring advanced skills in Electron.js, resulting in a 30% improvement in coding efficiency and effectiveness.',
     ],
   },
   {
@@ -172,30 +183,19 @@ const experiences = [
       'Ensured top-notch security for the app at Project Flux, reducing security incidents by 70% and receiving zero data breach incidents during my tenure.',
     ],
   },
-  {
-    title: 'Tech Manager / Director',
-    company_name: 'Greenie Web',
-    icon: greenieweb,
-    iconBg: '#383E56',
-    date: 'Sep 2022 - Present',
-    points: [
-      'Led a team of 30 developers at Greenie Web, ensuring the successful design and delivery of high-quality web applications, while identifying and preventing over 35 potentially fatal issues.',
-      'Collaborated with international organizations and government agencies to decarbonize their digital infrastructure, resulting in an average 45% reduction in carbon emissions across all digital operations.',
-      'Developed websites, chrome extensions, and desktop applications using HTML, CSS, JavaScript, and Electron.js, consistently meeting and exceeding client requirements.',
-      'Demonstrated consistent professional growth, acquiring advanced skills in Electron.js, resulting in a 30% improvement in coding efficiency and effectiveness.',
-    ],
-  },
+  
 
-  {
-    title: 'Tech Deputy Manager',
-    company_name: 'Global Alliance for Digital Sustainability',
-    icon: gads,
-    iconBg: '#F3F3F3',
-    date: 'Nov 2023 - Present',
+  ,{
+    title: 'Student',
+    company_name: 'Cabramatta High School',
+    icon: chs,
+    iconBg: '#383E56',
+    date: 'Aug 2019 - May 2023',
     points: [
-      'The Deputy Manager at Global Alliance for Digital Sustainability leads research initiatives to enhance the environmental sustainability of coding and software development.',
-      'Responsibilities include exploring innovative methods, collaborating with experts, and implementing strategies to promote eco-friendly practices within the digital realm.',
-      'Developed 4 websites, including a marketplace using React and MongoDB, raising awareness about digital sustainability.',
+      'Actively participated in and made valuable contributions to a Hackathon at Cabramatta High School.',
+      'Demonstrated exceptional talent and skill by winning an international web competition.',
+      'Achieved a distinguished academic standing, reflecting a strong commitment to learning and outstanding performance in web development, placing among the top 5% of students.',
+      'Displayed a high level of professionalism, integrity, and teamwork, earning the respect and admiration of peers and mentors throughout the Hackathon and web competition.',
     ],
   },
 ];
