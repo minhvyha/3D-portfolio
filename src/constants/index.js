@@ -12,7 +12,7 @@ import {
   mern1,
   mern2,
   path,
-  mq, 
+  mq,
   pong,
   quizzical,
   sonarqube,
@@ -151,6 +151,7 @@ const experiences = [
     title: 'Bachelor of Information Technology',
     company_name: 'Macquarie University',
     icon: mq,
+    mark: 'WAM: 90.75',
     iconBg: '#F3F3F3',
     date: 'Feb 2024 - Present',
     points: [
@@ -158,10 +159,11 @@ const experiences = [
       'Responsibilities include exploring innovative methods, collaborating with experts, and implementing strategies to promote eco-friendly practices within the digital realm.',
       'Developed 4 websites, including a marketplace using React and MongoDB, raising awareness about digital sustainability.',
     ],
-  }
-  ,{
+  },
+  {
     title: 'High School Certificate',
     company_name: 'Cabramatta High School',
+    mark: 'ATAR: 85.75',
     icon: chs,
     iconBg: '#383E56',
     date: 'Aug 2019 - Dec 2023',
@@ -199,8 +201,7 @@ const workExperience = [
       'Demonstrated consistent professional growth, acquiring advanced skills in Electron.js, resulting in a 30% improvement in coding efficiency and effectiveness.',
     ],
   },
-  
-  
+
   {
     title: 'Software Engineer',
     company_name: 'Project Flux',
@@ -214,8 +215,7 @@ const workExperience = [
       'Ensured top-notch security for the app at Project Flux, reducing security incidents by 70% and receiving zero data breach incidents during my tenure.',
     ],
   },
-  
-]
+];
 
 const testimonials = [
   {
@@ -723,6 +723,7 @@ export {
   technologies,
   experiences,
   testimonials,
-  projects,workExperience,
+  projects,
+  workExperience,
   certificate,
 };
