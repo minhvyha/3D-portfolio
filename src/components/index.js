@@ -10,11 +10,12 @@ import Contact from "./Contact";
 import CanvasLoader from "./Loader";
 import Footer from './Footer';
 import Certificate from './Certificate';
+import WorkExperience from './WorkExperience';
 
 
 export {
   Hero,
-  Navbar,
+  Navbar,WorkExperience,
   About,
   Tech,
   Experience,

@@ -12,6 +12,7 @@ import {
   mern1,
   mern2,
   path,
+  mq, 
   pong,
   quizzical,
   sonarqube,
@@ -147,6 +148,33 @@ const technologies = [
 
 const experiences = [
   {
+    title: 'Bachelor of Information Technology',
+    company_name: 'Macquarie University',
+    icon: mq,
+    iconBg: '#F3F3F3',
+    date: 'Feb 2024 - Present',
+    points: [
+      'The Deputy Manager at Global Alliance for Digital Sustainability leads research initiatives to enhance the environmental sustainability of coding and software development.',
+      'Responsibilities include exploring innovative methods, collaborating with experts, and implementing strategies to promote eco-friendly practices within the digital realm.',
+      'Developed 4 websites, including a marketplace using React and MongoDB, raising awareness about digital sustainability.',
+    ],
+  }
+  ,{
+    title: 'High School Certificate',
+    company_name: 'Cabramatta High School',
+    icon: chs,
+    iconBg: '#383E56',
+    date: 'Aug 2019 - Dec 2023',
+    points: [
+      'Actively participated in and made valuable contributions to a Hackathon at Cabramatta High School.',
+      'Demonstrated exceptional talent and skill by winning an international web competition.',
+      'Achieved a distinguished academic standing, reflecting a strong commitment to learning and outstanding performance in web development, placing among the top 5% of students.',
+      'Displayed a high level of professionalism, integrity, and teamwork, earning the respect and admiration of peers and mentors throughout the Hackathon and web competition.',
+    ],
+  },
+];
+const workExperience = [
+  {
     title: 'Tech Deputy Manager',
     company_name: 'Global Alliance for Digital Sustainability',
     icon: gads,
@@ -157,7 +185,8 @@ const experiences = [
       'Responsibilities include exploring innovative methods, collaborating with experts, and implementing strategies to promote eco-friendly practices within the digital realm.',
       'Developed 4 websites, including a marketplace using React and MongoDB, raising awareness about digital sustainability.',
     ],
-  },{
+  },
+  {
     title: 'Tech Manager / Director',
     company_name: 'Greenie Web',
     icon: greenieweb,
@@ -170,6 +199,8 @@ const experiences = [
       'Demonstrated consistent professional growth, acquiring advanced skills in Electron.js, resulting in a 30% improvement in coding efficiency and effectiveness.',
     ],
   },
+  
+  
   {
     title: 'Software Engineer',
     company_name: 'Project Flux',
@@ -184,21 +215,7 @@ const experiences = [
     ],
   },
   
-
-  ,{
-    title: 'Student',
-    company_name: 'Cabramatta High School',
-    icon: chs,
-    iconBg: '#383E56',
-    date: 'Aug 2019 - May 2023',
-    points: [
-      'Actively participated in and made valuable contributions to a Hackathon at Cabramatta High School.',
-      'Demonstrated exceptional talent and skill by winning an international web competition.',
-      'Achieved a distinguished academic standing, reflecting a strong commitment to learning and outstanding performance in web development, placing among the top 5% of students.',
-      'Displayed a high level of professionalism, integrity, and teamwork, earning the respect and admiration of peers and mentors throughout the Hackathon and web competition.',
-    ],
-  },
-];
+]
 
 const testimonials = [
   {
@@ -706,6 +723,6 @@ export {
   technologies,
   experiences,
   testimonials,
-  projects,
+  projects,workExperience,
   certificate,
 };

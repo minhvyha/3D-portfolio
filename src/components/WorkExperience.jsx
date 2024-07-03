@@ -8,11 +8,11 @@ import { motion, useAnimation, useInView } from 'framer-motion';
 import 'react-vertical-timeline-component/style.min.css';
 
 import { styles } from '../styles';
-import { experiences } from '../constants';
+import { workExperience } from '../constants';
 import { SectionWrapper } from '../hoc';
 import { textVariant } from '../utils/motion';
 
-const ExperienceCard = ({ experience }) => {
+const WorkExperienceCard = ({ experience }) => {
   return (
     <VerticalTimelineElement
       contentStyle={{
@@ -74,17 +74,17 @@ const Experience = () => {
         animate={mainControls}
       >
         <p className={`${styles.sectionSubText} text-center`}>
-          My education journey
+          What I have done so far
         </p>
         <h2 className={`${styles.sectionHeadText} text-center`}>
-          Education.
+          Work Experience.
         </h2>
       </motion.div>
 
       <div className="mt-20 flex flex-col" ref={ref}>
         <VerticalTimeline>
-          {experiences.map((experience, index) => (
-            <ExperienceCard
+          {workExperience.map((experience, index) => (
+            <WorkExperienceCard
               key={`experience-${index}`}
               experience={experience}
             />

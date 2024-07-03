@@ -7,6 +7,7 @@ import menu from './menu.svg';
 import close from './close.svg';
 import certificateImg from './certificate.png';
 import react from './react.png';
+import mq from './mq.png';
 
 import ai from './project/ai.png';
 import businesscard from './project/businesscard.png';
@@ -68,6 +69,7 @@ export {
   mern2,
   path,
   pong,
+  mq,
   quizzical,
   sonarqube,
   sort,
