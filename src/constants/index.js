@@ -41,6 +41,7 @@ import {
   threejs,
   greenieweb,
   chs,
+  tiktoktechjam,
   gads,
   projectflux,
 } from '../assets';
@@ -57,7 +58,8 @@ export const navLinks = [
   {
     id: 'work',
     title: 'Work',
-  },{
+  },
+  {
     id: 'education',
     title: 'Education',
   },
@@ -251,6 +253,27 @@ const testimonials = [
 ];
 
 const projects = [
+  {
+    name: 'TikGuard - 2024 TikTok TechJam',
+      description:
+        'For the 2024 TikTok TechJam, our team developed TikGuard, a machine learning model to detect and prevent hate speech, and a website for testing various AI models.',
+      tags: [
+        {
+        name: 'nextjs',
+        color: 'blue-text-gradient',
+      },
+      {
+        name: 'scikit-learn',
+        color: 'green-text-gradient',
+      },
+      {
+        name: 'tailwind',
+        color: 'orange-text-gradient',
+      },
+    ],
+    image: tiktoktechjam,
+    source_code_link: 'https://github.com/minhvyha/TikGuard',
+  },
   {
     name: 'Futuris Exchange',
     description:

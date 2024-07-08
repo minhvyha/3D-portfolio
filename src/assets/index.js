@@ -25,6 +25,7 @@ import sudoku from './project/sudoku.png';
 import tenzies from './project/tenzies.png';
 import tictactoe from './project/tictactoe.png';
 import travelreact from './project/travelreact.png';
+import tiktoktechjam from './project/tiktoktechjam.png';
 
 import beginner from './certificate/beginner.png';
 import cs50p from './certificate/cs50p.png';
@@ -71,7 +72,7 @@ export {
   pong,
   mq,
   quizzical,
-  sonarqube,
+  sonarqube,tiktoktechjam,
   sort,
   stockexchange,
   sudoku,
