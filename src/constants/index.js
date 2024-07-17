@@ -255,10 +255,10 @@ const testimonials = [
 const projects = [
   {
     name: 'TikGuard - 2024 TikTok TechJam',
-      description:
-        'For the 2024 TikTok TechJam, our team developed TikGuard, a machine learning model to detect and prevent hate speech, and a website for testing various AI models.',
-      tags: [
-        {
+    description:
+      'For the 2024 TikTok TechJam, our team developed TikGuard, a machine learning model to detect and prevent hate speech, and a website for testing various AI models.',
+    tags: [
+      {
         name: 'nextjs',
         color: 'blue-text-gradient',
       },
