@@ -5,7 +5,7 @@ function Footer() {
   return (
     <footer className="footer">
 			<div className="footer__container container">
-				<h1 className="footer__title">Minh Vy Ha</h1>
+				<h1 className="footer__title">Salvio Ha</h1>
 
 				<ul className="footer__list">
 					<li>
@@ -23,7 +23,7 @@ function Footer() {
 
 				<ul className="footer__social">
 					<a
-						href="https://www.linkedin.com/in/minhvyha/"
+						href="https://www.linkedin.com/in/salvioha/"
 						target="_blank"
 						className="footer__social-link"
 					>
@@ -54,7 +54,7 @@ function Footer() {
 					</a>
 				</ul>
 				<span className="footer__copy">
-					&#169; Minh Vy Ha. All rights resserved
+					&#169; Salvio Ha. All rights resserved
 				</span>
 			</div>
 		</footer>
