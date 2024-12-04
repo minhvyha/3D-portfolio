@@ -33,6 +33,7 @@ import cs50x from './certificate/cs50x.png';
 import hack from './certificate/hack.png';
 import intermediate from './certificate/intermediate.png';
 import tournament from './certificate/tournament.png';
+import microsoftai from './certificate/microsoftai.png';
 
 import css from './tech/css.png';
 import git from './tech/git.png';
@@ -103,4 +104,5 @@ export {
   greenieweb,
   chs,
   projectflux,
+  microsoftai
 };

@@ -44,6 +44,7 @@ import {
   tiktoktechjam,
   gads,
   projectflux,
+  microsoftai
 } from '../assets';
 
 import beginnerpdf from '../pdf/beginner.pdf';
@@ -613,6 +614,28 @@ const projects = [
 ];
 
 const certificate = [
+  {
+    name: 'Microsoft Azure AI Fundamentals',
+    description:
+      'Demonstrate fundamental AI concepts related to the development of software and services of Microsoft Azure to create AI solutions.',
+    tags: [
+      {
+        name: 'AI',
+        color: 'blue-text-gradient',
+      },
+      {
+        name: 'NLP',
+        color: 'green-text-gradient',
+      },
+      {
+        name: 'ML',
+        color: 'pink-text-gradient',
+      },
+    ],
+    image: microsoftai,
+    source_code_link:
+      'https://learn.microsoft.com/api/credentials/share/en-us/MinhVyHa/9B006B9EE8EFECF4?sharingId=AF47FDA83AC5A189',
+  },
   {
     name: 'CS50 Python',
     description:
