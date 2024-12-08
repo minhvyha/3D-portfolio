@@ -79,7 +79,6 @@ export {
   tenzies,
   tictactoe,
   travelreact,
-  logo,
   electron,
   tensorflow,
   backend,
