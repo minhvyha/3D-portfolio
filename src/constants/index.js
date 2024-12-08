@@ -186,7 +186,7 @@ const workExperience = [
     title: 'Software Engineer Intern',
     company_name: 'Bonding Through Coding (MQU)',
     icon: mq,
-    iconBg: '#383E56',
+    iconBg: '#F3F3F3',
     date: 'Nov 2024 - Apr 2025',
     points: [
       'Project Overview: Led the development of the "Bonding Through Coding" initiative, providing primary school students and their families with hands-on coding workshops to foster interest in technology and strengthen family connections.',
