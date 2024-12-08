@@ -157,7 +157,7 @@ const experiences = [
     title: 'Bachelor of Information Technology',
     company_name: 'Macquarie University',
     icon: mq,
-    mark: 'WAM: 90.75',
+    mark: 'WAM: 92.25',
     iconBg: '#F3F3F3',
     date: 'Feb 2024 - Present',
     points: [
@@ -183,15 +183,27 @@ const experiences = [
 ];
 const workExperience = [
   {
+    title: 'Software Engineer Intern',
+    company_name: 'Bonding Through Coding (MQU)',
+    icon: mq,
+    iconBg: '#383E56',
+    date: 'Nov 2024 - Apr 2025',
+    points: [
+      'Project Overview: Led the development of the "Bonding Through Coding" initiative, providing primary school students and their families with hands-on coding workshops to foster interest in technology and strengthen family connections.',
+      'Curriculum Development: Designed and implemented engaging coding courses using HTML, CSS, JavaScript, and Python, tailored for beginners to build foundational skills.',
+      'Kid-Focused Engagement: Applied expertise in educational strategies for children to create interactive and captivating course materials that keep young learners engaged.',
+    ],
+  },
+  {
     title: 'Tech Deputy Manager',
     company_name: 'Global Alliance for Digital Sustainability',
     icon: gads,
     iconBg: '#F3F3F3',
     date: 'Nov 2023 - Present',
     points: [
-      'The Deputy Manager at Global Alliance for Digital Sustainability leads research initiatives to enhance the environmental sustainability of coding and software development.',
-      'Responsibilities include exploring innovative methods, collaborating with experts, and implementing strategies to promote eco-friendly practices within the digital realm.',
-      'Developed 4 websites, including a marketplace using React and MongoDB, raising awareness about digital sustainability.',
+      'Leadership in Sustainability: Spearheaded research initiatives at Global Alliance for Digital Sustainability to promote eco-friendly coding and software practices',
+      'Innovation & Collaboration: Explored new methods and collaborated with experts to enhance environmental sustainability in the digital space.',
+      'Technical Contributions: Developed 4 websites, including a React and MongoDB marketplace, raising awareness about digital sustainability.',
     ],
   },
   {
@@ -201,10 +213,9 @@ const workExperience = [
     iconBg: '#383E56',
     date: 'Sep 2022 - Present',
     points: [
-      'Led a team of 30 developers at Greenie Web, ensuring the successful design and delivery of high-quality web applications, while identifying and preventing over 35 potentially fatal issues.',
-      'Collaborated with international organizations and government agencies to decarbonize their digital infrastructure, resulting in an average 45% reduction in carbon emissions across all digital operations.',
-      'Developed websites, chrome extensions, and desktop applications using HTML, CSS, JavaScript, and Electron.js, consistently meeting and exceeding client requirements.',
-      'Demonstrated consistent professional growth, acquiring advanced skills in Electron.js, resulting in a 30% improvement in coding efficiency and effectiveness.',
+      "Leadership & Quality Assurance: Led a team of 30 developers at Greenie Web, delivering high-quality web applications and mitigating over 35 critical issues.",
+      "Sustainability Collaboration: Partnered with international organizations and government agencies to reduce digital carbon emissions by 45%.",
+      "Technical Expertise & Growth: Developed websites, Chrome extensions, and desktop apps using modern technologies, achieving a 30% boost in coding efficiency with advanced Electron.js skills."
     ],
   },
 
@@ -214,11 +225,11 @@ const workExperience = [
     icon: projectflux,
     iconBg: '#F3F3F3',
     date: 'July 2022 - Sep 2023',
+
     points: [
-      'Developed and deployed a web extension that increased user engagement by 50% and resulted in a 30% boost in overall revenue for the client.',
-      'Implemented a web application using HTML, CSS, and JavaScript, resulting in a 20% reduction in page load time and a 15% increase in user retention.',
-      'As a team lead at Project Flux, successfully delivered 10 major releases within strict timelines, achieving a 95% customer satisfaction rate.',
-      'Ensured top-notch security for the app at Project Flux, reducing security incidents by 70% and receiving zero data breach incidents during my tenure.',
+      "Impactful Web Development: Created a web extension that boosted user engagement by 50% and increased client revenue by 30%.",
+      "Efficiency & Retention: Developed a web application reducing page load time by 20% and improving user retention by 15%.",
+      "Leadership & Security: Led 10 major releases at Project Flux, achieving 95% customer satisfaction and reducing security incidents by 70%."
     ],
   },
 ];
