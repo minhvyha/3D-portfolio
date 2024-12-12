@@ -42,6 +42,7 @@ import {
   greenieweb,
   chs,
   tiktoktechjam,
+  pythonworkshop,
   gads,
   projectflux,
   microsoftai
@@ -646,6 +647,27 @@ const certificate = [
     image: microsoftai,
     source_code_link:
       'https://learn.microsoft.com/api/credentials/share/en-us/MinhVyHa/9B006B9EE8EFECF4?sharingId=AF47FDA83AC5A189',
+  },
+  {
+    name: 'Macquarie University Python Workshop',
+    description:
+      'A workshop hosted by Macquarie University to introduce Python programming to students. The workshop covered basic Python syntax, data structures, and algorithms.',
+    tags: [
+      {
+        name: 'Python',
+        color: 'blue-text-gradient',
+      },
+      {
+        name: 'OOP',
+        color: 'green-text-gradient',
+      },
+      {
+        name: 'Data Structures',
+        color: 'pink-text-gradient',
+      },
+    ],
+    image: pythonworkshop,
+    source_code_link:pythonworkshop,
   },
   {
     name: 'CS50 Python',
