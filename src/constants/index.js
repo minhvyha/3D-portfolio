@@ -28,6 +28,7 @@ import {
   web,
   javascript,
   typescript,
+  wai,
   html,
   css,
   reactjs,
@@ -670,6 +671,27 @@ const certificate = [
     source_code_link:pythonworkshop,
   },
   {
+    name: 'Hackathon: AI for Inclusion',
+    description:
+      "I led and supported the design and presentation of my team's idea and I helped my team achieve the score 30% higher than other students' team.",
+    tags: [
+      {
+        name: 'hackathon',
+        color: 'blue-text-gradient',
+      },
+      {
+        name: 'ai',
+        color: 'green-text-gradient',
+      },
+      {
+        name: 'team building',
+        color: 'pink-text-gradient',
+      },
+    ],
+    image: hack,
+    source_code_link: wai,
+  },
+  {
     name: 'CS50 Python',
     description:
       'An introduction course to programming using Python. Learn how to read and write code as well as how to test and "debug" it. Hands-on opportunities for lots of practice. Exercises inspired by real-world problems.',
@@ -713,27 +735,7 @@ const certificate = [
     source_code_link:
       'https://certificates.cs50.io/a7cbd9c7-98c6-4478-aca8-3f1c747bcb5a.png?size=A4',
   },
-  {
-    name: 'Hackathon: AI for Inclusion',
-    description:
-      "I led and supported the design and presentation of my team's idea and I helped my team achieve the score 30% higher than other students' team.",
-    tags: [
-      {
-        name: 'hackathon',
-        color: 'blue-text-gradient',
-      },
-      {
-        name: 'ai',
-        color: 'green-text-gradient',
-      },
-      {
-        name: 'team building',
-        color: 'pink-text-gradient',
-      },
-    ],
-    image: hack,
-    source_code_link: 'https://photos.app.goo.gl/NaZ6uvMkN2yUNFTZ9',
-  },
+
   {
     name: 'Web Competition Tournament',
     description:

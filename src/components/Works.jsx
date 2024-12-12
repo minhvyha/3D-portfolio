@@ -74,6 +74,7 @@ const Works = () => {
   const ref = useRef()
   const isInView = useInView(ref, { once: true });
   const mainControls = useAnimation();
+  const [show, setShow] = React.useState(false);
 
   useEffect(() => {
     if (isInView) {
@@ -103,10 +104,30 @@ const Works = () => {
       </div>
 
       <div className='mt-20 flex flex-wrap gap-7 justify-center'>
-        {projects.map((project, index) => (
+        {projects.slice(0, 6).map((project, index) => (
           <ProjectCard key={`project-${index}`} index={index} {...project} />
         ))}
+                <div
+          className=" flex-row flex-wrap gap-7 justify-center transition-all"
+          style={{
+            display: !show ? "none" : "flex  ",
+            opacity: !show ? "0" : "1",
+          }}
+        >
+
+        {projects.slice(6, projects.length).map((project, index) => (
+          <ProjectCard key={`project-${index}`} index={index} {...project} />
+        ))}
+        </div>
       </div>
+      <motion.div className="flex justify-center mt-6" variants={fadeIn("up", "spring", 6*0.3, 0.75)}>
+        <button
+          onClick={() => setShow(!show)}
+          className="bg-tertiary py-3 px-8 rounded-xl outline-none w-fit text-white font-bold shadow-md shadow-primary"
+        >
+          {show ? "Show Less" : "Show More"}
+        </button>
+      </motion.div>
     </>
   );
 };

@@ -1,12 +1,12 @@
-import React, { useEffect, useRef } from 'react';
-import Tilt from 'react-tilt';
-import { motion, useAnimation, useInView } from 'framer-motion';
+import React, { useEffect, useRef } from "react";
+import Tilt from "react-tilt";
+import { motion, useAnimation, useInView } from "framer-motion";
 
-import { styles } from '../styles';
-import { certificateImg } from '../assets';
-import { SectionWrapper } from '../hoc';
-import { certificate } from '../constants';
-import { fadeIn, textVariant } from '../utils/motion';
+import { styles } from "../styles";
+import { certificateImg } from "../assets";
+import { SectionWrapper } from "../hoc";
+import { certificate } from "../constants";
+import { fadeIn, textVariant } from "../utils/motion";
 
 const ProjectCard = ({
   index,
@@ -17,7 +17,7 @@ const ProjectCard = ({
   source_code_link,
 }) => {
   return (
-    <motion.div variants={fadeIn('up', 'spring', index * 0.3, 0.75)}>
+    <motion.div variants={fadeIn("up", "spring", index * 0.3, 0.75)}>
       <Tilt
         options={{
           max: 45,
@@ -35,7 +35,7 @@ const ProjectCard = ({
 
           <div className="absolute inset-0 flex justify-end m-3 card-img_hover">
             <div
-              onClick={() => window.open(source_code_link, '_blank')}
+              onClick={() => window.open(source_code_link, "_blank")}
               className="black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer"
             >
               <img
@@ -71,10 +71,11 @@ const Certificate = () => {
   const ref = useRef();
   const isInView = useInView(ref, { once: true });
   const mainControls = useAnimation();
+  const [show, setShow] = React.useState(false);
 
   useEffect(() => {
     if (isInView) {
-      mainControls.start('show');
+      mainControls.start("show");
     }
   }, [isInView]);
   return (
@@ -91,7 +92,7 @@ const Certificate = () => {
       <div className="w-full flex">
         <motion.p
           ref={ref}
-          variants={fadeIn('', '', 0.1, 1)}
+          variants={fadeIn("", "", 0.1, 1)}
           initial="hidden"
           animate={mainControls}
           className="mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]"
@@ -105,12 +106,32 @@ const Certificate = () => {
       </div>
 
       <div className="mt-20 flex flex-wrap gap-7 justify-center	">
-        {certificate.map((project, index) => (
+        {certificate.slice(0, 6).map((project, index) => (
           <ProjectCard key={`project-${index}`} index={index} {...project} />
         ))}
+        <div
+          className=" flex-row flex-wrap gap-7 justify-center transition-all"
+          style={{
+            display: !show ? "none" : "flex  ",
+            opacity: !show ? "0" : "1",
+          }}
+        >
+          {certificate.slice(6, certificate.length).map((project, index) => (
+            <ProjectCard key={`project-${index}`} index={index} {...project} />
+          ))}
+        </div>
       </div>
+
+      <motion.div className="flex justify-center mt-6" variants={fadeIn("up", "spring", 6*0.3, 0.75)}>
+        <button
+          onClick={() => setShow(!show)}
+          className="bg-tertiary py-3 px-8 rounded-xl outline-none w-fit text-white font-bold shadow-md shadow-primary"
+        >
+          {show ? "Show Less" : "Show More"}
+        </button>
+      </motion.div>
     </>
   );
 };
 
-export default SectionWrapper(Certificate, 'certificate');
+export default SectionWrapper(Certificate, "certificate");

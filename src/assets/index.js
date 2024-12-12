@@ -34,6 +34,7 @@ import intermediate from "./certificate/intermediate.png";
 import tournament from "./certificate/tournament.png";
 import microsoftai from "./certificate/microsoftai.png";
 import pythonworkshop from "./certificate/pythonworkshop.png";
+import wai from "./certificate/wai.png";
 
 import css from "./tech/css.png";
 import git from "./tech/git.png";
@@ -103,6 +104,7 @@ export {
   typescript,
   threejs,
   greenieweb,
+  wai,
   chs,
   projectflux,
   microsoftai,
