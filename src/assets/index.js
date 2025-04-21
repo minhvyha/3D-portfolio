@@ -9,6 +9,7 @@ import react from "./react.png";
 import mq from "./mq.png";
 
 import ai from "./project/ai.png";
+import btc from "./project/btc.png";
 import businesscard from "./project/businesscard.png";
 import firewithin from "./project/firewithin.png";
 import mern1 from "./project/mern1.png";
@@ -91,6 +92,7 @@ export {
   github,
   menu,
   close,
+  btc,
   css,
   git,
   html,

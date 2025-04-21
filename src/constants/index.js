@@ -46,6 +46,7 @@ import {
   pythonworkshop,
   gads,
   projectflux,
+  btc,
   microsoftai
 } from '../assets';
 
@@ -197,18 +198,6 @@ const workExperience = [
     ],
   },
   {
-    title: 'Tech Deputy Manager',
-    company_name: 'Global Alliance for Digital Sustainability',
-    icon: gads,
-    iconBg: '#F3F3F3',
-    date: 'Nov 2023 - Present',
-    points: [
-      'Leadership in Sustainability: Spearheaded research initiatives at Global Alliance for Digital Sustainability to promote eco-friendly coding and software practices',
-      'Innovation & Collaboration: Explored new methods and collaborated with experts to enhance environmental sustainability in the digital space.',
-      'Technical Contributions: Developed 4 websites, including a React and MongoDB marketplace, raising awareness about digital sustainability.',
-    ],
-  },
-  {
     title: 'Tech Manager / Director',
     company_name: 'Greenie Web',
     icon: greenieweb,
@@ -220,6 +209,19 @@ const workExperience = [
       "Technical Expertise & Growth: Developed websites, Chrome extensions, and desktop apps using modern technologies, achieving a 30% boost in coding efficiency with advanced Electron.js skills."
     ],
   },
+  {
+    title: 'Tech Deputy Manager',
+    company_name: 'Global Alliance for Digital Sustainability',
+    icon: gads,
+    iconBg: '#F3F3F3',
+    date: 'Nov 2023 - Present',
+    points: [
+      'Leadership in Sustainability: Spearheaded research initiatives at Global Alliance for Digital Sustainability to promote eco-friendly coding and software practices',
+      'Innovation & Collaboration: Explored new methods and collaborated with experts to enhance environmental sustainability in the digital space.',
+      'Technical Contributions: Developed 4 websites, including a React and MongoDB marketplace, raising awareness about digital sustainability.',
+    ],
+  },
+
 
   {
     title: 'Software Engineer',
@@ -267,6 +269,27 @@ const testimonials = [
 ];
 
 const projects = [
+  {
+    name: 'Bonding Through Coding',
+    description:
+      'Bonding Through Coding is a fun workshop where kids and parents learn web development together. I helped design the curriculum, assisted teaching, and built a site for revising and showcasing their projects.',
+    tags: [
+      {
+        name: 'html',
+        color: 'blue-text-gradient',
+      },
+      {
+        name: 'education',
+        color: 'green-text-gradient',
+      },
+      {
+        name: 'research',
+        color: 'orange-text-gradient',
+      },
+    ],
+    image: btc,
+    source_code_link: 'https://researchers.mq.edu.au/en/activities/bonding-through-coding-workshop-series-website-development',
+  },
   {
     name: 'TikGuard - 2024 TikTok TechJam',
     description:
