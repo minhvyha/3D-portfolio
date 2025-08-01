@@ -164,10 +164,12 @@ const experiences = [
     iconBg: '#F3F3F3',
     date: 'Feb 2024 - Present',
     points: [
-      'The Deputy Manager at Global Alliance for Digital Sustainability leads research initiatives to enhance the environmental sustainability of coding and software development.',
-      'Responsibilities include exploring innovative methods, collaborating with experts, and implementing strategies to promote eco-friendly practices within the digital realm.',
-      'Developed 4 websites, including a marketplace using React and MongoDB, raising awareness about digital sustainability.',
-    ],
+  "The Unit Representative for COMP1350 at Macquarie University advocates for student concerns, facilitates communication between peers and faculty, and helps shape course delivery to enhance learning outcomes.",
+  "Recognized on the Macquarie University Merit List for 2025, demonstrating outstanding academic achievement and commitment to excellence in the Faculty of Science and Engineering.",
+  "Selected as a Participant in the New Colombo Program (NCP) for COMP2750 in Jakarta, where I collaborated on cross-cultural research projects and strengthened regional partnerships.",
+  "Served as a Team Member on the Bonding Through Coding project led by Charanya, co-developing coding workshops and educational materials for primary school students.",
+  "As Project Manager for Carbon Cue (Open Day Project 2025), I directed a multidisciplinary team, oversaw project planning and execution, and delivered an interactive sustainability showcase to engage campus visitors."
+],
   },
   {
     title: 'High School Certificate',
