@@ -229,7 +229,7 @@ const workExperience = [
     title: 'Software Engineer',
     company_name: 'Project Flux',
     icon: projectflux,
-    iconBg: '#383E56',
+    iconBg: '#F3F3F3',
     date: 'July 2022 - Sep 2023',
 
     points: [
