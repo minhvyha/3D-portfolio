@@ -168,7 +168,7 @@ const experiences = [
   "Recognized on the Macquarie University Merit List for 2025, demonstrating outstanding academic achievement and commitment to excellence in the Faculty of Science and Engineering.",
   "Selected as a Participant in the New Colombo Program (NCP) for COMP2750 in Jakarta, where I collaborated on cross-cultural research projects and strengthened regional partnerships.",
   "Served as a Team Member on the Bonding Through Coding project led by Charanya, co-developing coding workshops and educational materials for primary school students.",
-  "As Project Manager for Carbon Cue (Open Day Project 2025), I directed a multidisciplinary team, oversaw project planning and execution, and delivered an interactive sustainability showcase to engage campus visitors."
+  "As a software engineer intern for Carbon Cue (Open Day Project 2025), I directed a multidisciplinary team, oversaw project planning and execution, and delivered an interactive sustainability showcase to engage campus visitors."
 ],
   },
   {
