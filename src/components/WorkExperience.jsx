@@ -1,25 +1,25 @@
-import React, { useEffect, useRef } from 'react';
+import React, { useEffect, useRef } from "react";
 import {
   VerticalTimeline,
   VerticalTimelineElement,
-} from 'react-vertical-timeline-component';
-import { motion, useAnimation, useInView } from 'framer-motion';
+} from "react-vertical-timeline-component";
+import { motion, useAnimation, useInView } from "framer-motion";
 
-import 'react-vertical-timeline-component/style.min.css';
+import "react-vertical-timeline-component/style.min.css";
 
-import { styles } from '../styles';
-import { workExperience } from '../constants';
-import { SectionWrapper } from '../hoc';
-import { textVariant } from '../utils/motion';
+import { styles } from "../styles";
+import { workExperience } from "../constants";
+import { SectionWrapper } from "../hoc";
+import { fadeIn, textVariant } from "../utils/motion";
 
 const WorkExperienceCard = ({ experience }) => {
   return (
     <VerticalTimelineElement
       contentStyle={{
-        background: '#1d1836',
-        color: '#fff',
+        background: "#1d1836",
+        color: "#fff",
       }}
-      contentArrowStyle={{ borderRight: '7px solid  #232631' }}
+      contentArrowStyle={{ borderRight: "7px solid  #232631" }}
       date={experience.date}
       iconStyle={{ background: experience.iconBg }}
       icon={
@@ -60,14 +60,15 @@ const Experience = () => {
   const ref = useRef(null);
   const isInView = useInView(ref, { once: true });
   const mainControls = useAnimation();
+  const [show, setShow] = React.useState(false);
 
   useEffect(() => {
     if (isInView) {
-      mainControls.start('show');
+      mainControls.start("show");
     }
   }, [isInView]);
   return (
-    < >
+    <>
       <motion.div
         variants={textVariant(0.2)}
         initial="hidden"
@@ -83,16 +84,35 @@ const Experience = () => {
 
       <div className="mt-20 flex flex-col" ref={ref}>
         <VerticalTimeline>
-          {workExperience.map((experience, index) => (
+          {workExperience.slice(0, 2).map((experience, index) => (
             <WorkExperienceCard
               key={`experience-${index}`}
               experience={experience}
             />
           ))}
+          {show &&
+            workExperience.slice(2).map((experience, index) => (
+              <WorkExperienceCard
+                key={`experience-${index}`}
+                experience={experience}
+              />
+            ))}
         </VerticalTimeline>
+              <motion.div
+        className="flex justify-center mt-6"
+        variants={fadeIn("up", "spring", 2 * 0.3, 0.75)}
+      >
+        <button
+          onClick={() => setShow(!show)}
+          className="bg-tertiary py-3 px-8 rounded-xl outline-none w-fit text-white font-bold shadow-md shadow-primary"
+        >
+          {show ? "Show Less" : "Show More"}
+        </button>
+      </motion.div>
       </div>
+
     </>
   );
 };
 
-export default SectionWrapper(Experience, 'work');
+export default SectionWrapper(Experience, "work");

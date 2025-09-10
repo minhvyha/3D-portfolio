@@ -201,7 +201,7 @@ const workExperience = [
     ],
   },
   {
-    title: 'Project Leader',
+    title: 'UI Project Leader',
     company_name: 'Karier.mu',
     icon: kariermu,
     iconBg: '#383E56',
