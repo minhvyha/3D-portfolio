@@ -206,11 +206,12 @@ const workExperience = [
     icon: kariermu,
     iconBg: '#383E56',
     date: 'June 2025 - July 2025',
-    points: [
-      "Leadership & Quality Assurance: Led a team of 30 developers at Greenie Web, delivering high-quality web applications and mitigating over 35 critical issues.",
-      "Sustainability Collaboration: Partnered with international organizations and government agencies to reduce digital carbon emissions by 45%.",
-      "Technical Expertise & Growth: Developed websites, Chrome extensions, and desktop apps using modern technologies, achieving a 30% boost in coding efficiency with advanced Electron.js skills."
+        points: [
+      "Led a team of 3 to design and prototype a gamified-learning UI for Karier.mu.",
+      "Converted product requirements into clickable prototypes and handoff-ready design assets.",
+      "Coordinated with product and engineering to ensure designs met usability and implementation constraints."
     ],
+
   },
  
   {
@@ -232,9 +233,9 @@ const workExperience = [
     iconBg: '#383E56',
     date: 'Sep 2022 - Present',
     points: [
-      "Led a team of 3 to design and prototype a gamified-learning UI for Karier.mu.",
-      "Converted product requirements into clickable prototypes and handoff-ready design assets.",
-      "Coordinated with product and engineering to ensure designs met usability and implementation constraints."
+      "Leadership & Quality Assurance: Led a team of 30 developers at Greenie Web, delivering high-quality web applications and mitigating over 35 critical issues.",
+      "Sustainability Collaboration: Partnered with international organizations and government agencies to reduce digital carbon emissions by 45%.",
+      "Technical Expertise & Growth: Developed websites, Chrome extensions, and desktop apps using modern technologies, achieving a 30% boost in coding efficiency with advanced Electron.js skills."
     ],
   },
 
