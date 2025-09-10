@@ -35,6 +35,7 @@ import {
   redux,
   tailwind,
   nodejs,
+  kariermu,
   mongodb,
   git,
   electron,
@@ -200,17 +201,18 @@ const workExperience = [
     ],
   },
   {
-    title: 'Tech Manager / Director',
-    company_name: 'Greenie Web',
-    icon: greenieweb,
+    title: 'Project Leader',
+    company_name: 'Karier.mu',
+    icon: kariermu,
     iconBg: '#383E56',
-    date: 'Sep 2022 - Present',
+    date: 'June 2025 - July 2025',
     points: [
       "Leadership & Quality Assurance: Led a team of 30 developers at Greenie Web, delivering high-quality web applications and mitigating over 35 critical issues.",
       "Sustainability Collaboration: Partnered with international organizations and government agencies to reduce digital carbon emissions by 45%.",
       "Technical Expertise & Growth: Developed websites, Chrome extensions, and desktop apps using modern technologies, achieving a 30% boost in coding efficiency with advanced Electron.js skills."
     ],
   },
+ 
   {
     title: 'Tech Deputy Manager',
     company_name: 'Global Alliance for Digital Sustainability',
@@ -223,7 +225,18 @@ const workExperience = [
       'Technical Contributions: Developed 4 websites, including a React and MongoDB marketplace, raising awareness about digital sustainability.',
     ],
   },
-
+ {
+    title: 'Tech Manager / Director',
+    company_name: 'Greenie Web',
+    icon: greenieweb,
+    iconBg: '#383E56',
+    date: 'Sep 2022 - Present',
+    points: [
+      "Led a team of 3 to design and prototype a gamified-learning UI for Karier.mu.",
+      "Converted product requirements into clickable prototypes and handoff-ready design assets.",
+      "Coordinated with product and engineering to ensure designs met usability and implementation constraints."
+    ],
+  },
 
   {
     title: 'Software Engineer',

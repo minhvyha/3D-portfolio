@@ -55,6 +55,7 @@ import greenieweb from "./company/greenieweb.png";
 import chs from "./company/chs.png";
 import projectflux from "./company/projectflux.png";
 import gads from "./company/gads.png";
+import kariermu from "./company/kariermu.png";
 
 export {
   beginner,
@@ -71,6 +72,7 @@ export {
   gads,
   mern1,
   pythonworkshop,
+  kariermu,
   mern2,
   path,
   pong,
