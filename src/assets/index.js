@@ -25,6 +25,7 @@ import sudoku from "./project/sudoku.png";
 import tenzies from "./project/tenzies.png";
 import tictactoe from "./project/tictactoe.png";
 import travelreact from "./project/travelreact.png";
+import carboncue from "./project/carboncue.png";
 import tiktoktechjam from "./project/tiktoktechjam.png";
 
 import beginner from "./certificate/beginner.png";
@@ -56,6 +57,7 @@ import chs from "./company/chs.png";
 import projectflux from "./company/projectflux.png";
 import gads from "./company/gads.png";
 import kariermu from "./company/kariermu.png";
+import macs from "./company/macs.png";
 
 export {
   beginner,
@@ -77,6 +79,8 @@ export {
   path,
   pong,
   mq,
+  macs,
+  carboncue,
   quizzical,
   sonarqube,
   tiktoktechjam,

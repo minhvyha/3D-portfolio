@@ -41,11 +41,13 @@ import {
   electron,
   tensorflow,
   threejs,
+  macs,
   greenieweb,
   chs,
   tiktoktechjam,
   pythonworkshop,
   gads,
+  carboncue,
   projectflux,
   btc,
   microsoftai
@@ -189,11 +191,23 @@ const experiences = [
 ];
 const workExperience = [
   {
+    title: 'Operations Team Member',
+    company_name: 'Macquarie Association of Computing Students',
+    icon: macs,
+    iconBg: '#383E56',
+    date: 'Oct 2025 - Present',
+    points: [
+      'Perform technical work on MACS back-end infrastructure, including servers and databases.',
+      'Maintain and improve MACS server bots, automation scripts, and verification systems.',
+      'Support management in identifying and maintaining third-party services that enhance MACS operations and student engagement.',
+    ],
+  },
+  {
     title: 'Software Engineer Intern',
     company_name: 'Bonding Through Coding (MQU)',
     icon: mq,
     iconBg: '#F3F3F3',
-    date: 'Nov 2024 - Apr 2025',
+    date: 'Nov 2024 - Present',
     points: [
       'Project Overview: Led the development of the "Bonding Through Coding" initiative, providing primary school students and their families with hands-on coding workshops to foster interest in technology and strengthen family connections.',
       'Curriculum Development: Designed and implemented engaging coding courses using HTML, CSS, JavaScript, and Python, tailored for beginners to build foundational skills.',
@@ -285,6 +299,27 @@ const testimonials = [
 ];
 
 const projects = [
+  {
+    name: 'CarbonCue - Open Day Project 2025',
+    description:
+      'CarbonCue is an initiative aimed at raising awareness about carbon emissions and promoting sustainable practices among students. I contributed by developing educational materials and interactive web experiences.',
+    tags: [
+      {
+        name: 'nextjs',
+        color: 'blue-text-gradient',
+      },
+      {
+        name: 'education',
+        color: 'green-text-gradient',
+      },
+      {
+        name: 'mongodb',
+        color: 'orange-text-gradient',
+      },
+    ],
+    image: carboncue,
+    source_code_link: 'https://researchers.mq.edu.au/en/activities/bonding-through-coding-workshop-series-website-development',
+  },
   {
     name: 'Bonding Through Coding',
     description:
