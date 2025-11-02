@@ -233,7 +233,7 @@ const workExperience = [
     company_name: 'Global Alliance for Digital Sustainability',
     icon: gads,
     iconBg: '#F3F3F3',
-    date: 'Nov 2023 - Present',
+    date: 'Nov 2023 - Feb 2025',
     points: [
       'Leadership in Sustainability: Spearheaded research initiatives at Global Alliance for Digital Sustainability to promote eco-friendly coding and software practices',
       'Innovation & Collaboration: Explored new methods and collaborated with experts to enhance environmental sustainability in the digital space.',
@@ -245,7 +245,7 @@ const workExperience = [
     company_name: 'Greenie Web',
     icon: greenieweb,
     iconBg: '#383E56',
-    date: 'Sep 2022 - Present',
+    date: 'Sep 2022 - Jan 2025',
     points: [
       "Leadership & Quality Assurance: Led a team of 30 developers at Greenie Web, delivering high-quality web applications and mitigating over 35 critical issues.",
       "Sustainability Collaboration: Partnered with international organizations and government agencies to reduce digital carbon emissions by 45%.",
