@@ -163,7 +163,7 @@ const experiences = [
     title: 'Bachelor of Information Technology',
     company_name: 'Macquarie University',
     icon: mq,
-    mark: 'WAM: 92.25',
+    mark: 'WAM: 90.417',
     iconBg: '#F3F3F3',
     date: 'Feb 2024 - Present',
     points: [
