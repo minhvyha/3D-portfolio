@@ -191,6 +191,19 @@ const experiences = [
 ];
 const workExperience = [
   {
+    title: 'Software Developer',
+    company_name: 'Macquarie University',
+    icon: mq,
+    iconBg: '#F3F3F3',
+    date: 'Nov 2025 - Present',
+    points: [
+      'Designing and building a standalone web application utilizing cloud infrastructure and modern architectural patterns.',
+      'Integrating Large Language Models (LLMs) and speech-processing technologies to create multimodal interactive user experiences',
+      'Implementing robust data security measures and ensuring system architecture complies with strict institutional governance and privacy standards.',
+      'Engineering prompt strategies to ensure fairness, inclusivity, and alignment with Universal Design for Learning (UDL) principles.'
+    ],
+  },
+  {
     title: 'Operations Team Member',
     company_name: 'Macquarie Association of Computing Students',
     icon: macs,
@@ -207,7 +220,7 @@ const workExperience = [
     company_name: 'Bonding Through Coding (MQU)',
     icon: mq,
     iconBg: '#F3F3F3',
-    date: 'Nov 2024 - Present',
+    date: 'Nov 2024 - Nov 2025',
     points: [
       'Project Overview: Led the development of the "Bonding Through Coding" initiative, providing primary school students and their families with hands-on coding workshops to foster interest in technology and strengthen family connections.',
       'Curriculum Development: Designed and implemented engaging coding courses using HTML, CSS, JavaScript, and Python, tailored for beginners to build foundational skills.',
