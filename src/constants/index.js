@@ -331,7 +331,7 @@ const projects = [
       },
     ],
     image: carboncue,
-    source_code_link: 'https://researchers.mq.edu.au/en/activities/bonding-through-coding-workshop-series-website-development',
+    source_code_link: 'https://carboncue.vercel.app/',
   },
   {
     name: 'Bonding Through Coding',
