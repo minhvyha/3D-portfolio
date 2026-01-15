@@ -216,7 +216,7 @@ const workExperience = [
     ],
   },
   {
-    title: 'Software Engineer Intern',
+    title: 'IT Workshop Facilitator',
     company_name: 'Bonding Through Coding (MQU)',
     icon: mq,
     iconBg: '#F3F3F3',
