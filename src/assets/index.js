@@ -6,7 +6,6 @@ import menu from "./menu.svg";
 import close from "./close.svg";
 import certificateImg from "./certificate.png";
 import react from "./react.png";
-import mq from "./mq.png";
 
 import ai from "./project/ai.png";
 import btc from "./project/btc.png";
@@ -58,6 +57,8 @@ import projectflux from "./company/projectflux.png";
 import gads from "./company/gads.png";
 import kariermu from "./company/kariermu.png";
 import macs from "./company/macs.png";
+import mqw from "./company/mqw.png";
+import mqb from "./company/mqb.png";
 
 export {
   beginner,
@@ -67,6 +68,8 @@ export {
   intermediate,
   tournament,
   ai,
+  mqb,
+  mqw,
   certificateImg,
   search,
   businesscard,
@@ -78,7 +81,6 @@ export {
   mern2,
   path,
   pong,
-  mq,
   macs,
   carboncue,
   quizzical,

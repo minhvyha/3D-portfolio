@@ -12,7 +12,6 @@ import {
   mern1,
   mern2,
   path,
-  mq,
   pong,
   quizzical,
   sonarqube,
@@ -46,6 +45,8 @@ import {
   chs,
   tiktoktechjam,
   pythonworkshop,
+  mqw,
+  mqb,
   gads,
   carboncue,
   projectflux,
@@ -193,14 +194,25 @@ const workExperience = [
   {
     title: 'Software Developer',
     company_name: 'Macquarie University',
-    icon: mq,
-    iconBg: '#F3F3F3',
+    icon: mqw,
+    iconBg: '#383E56',
     date: 'Nov 2025 - Present',
     points: [
       'Designing and building a standalone web application utilizing cloud infrastructure and modern architectural patterns.',
       'Integrating Large Language Models (LLMs) and speech-processing technologies to create multimodal interactive user experiences',
       'Implementing robust data security measures and ensuring system architecture complies with strict institutional governance and privacy standards.',
       'Engineering prompt strategies to ensure fairness, inclusivity, and alignment with Universal Design for Learning (UDL) principles.'
+    ],
+  },
+  {
+    title: 'Computing Drop-In Centre Staff',
+    company_name: 'Macquarie University',
+    icon: mqb,
+    iconBg: '#F3F3F3',
+    date: 'Feb 2026 - Present',
+    points: [
+      'Providing high-level technical support and peer mentorship for 10 core units',
+      'I assist students in bridging the gap between theoretical concepts and practical implementation across a wide range of computer science disciplines.',
     ],
   },
   {
@@ -218,7 +230,7 @@ const workExperience = [
   {
     title: 'IT Workshop Facilitator',
     company_name: 'Bonding Through Coding (MQU)',
-    icon: mq,
+    icon: mqb,
     iconBg: '#F3F3F3',
     date: 'Nov 2024 - Nov 2025',
     points: [
